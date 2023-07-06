@@ -1,0 +1,160 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #050404;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  image-resolution: 100%;
+  image-rendering: auto;
+
+
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px;
+  background-color:darkgrey;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* styles.css */
+
+  .reveal-button {
+    /* Add your desired styles for the button here */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+.social-icons {
+  margin-top: 20px;
+  font-size: 15px; /* Adjust the size as needed */
+  text-align: inline-flex;
+}
+
+.social-icons a {
+  display:inline-flex;
+  margin-right: 20px;
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  line-height: 32px; /* Adjust the line height as needed */
+  text-align:middle;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 10px;
+}
+
+.social-icons a:hover {
+  background-color: #133a33;
+  color: #070404;
+}
+
+
+/* About Me */
+#about {
+  padding: 40px;
+  background-color: darkgrey;
+  font-style: italic;
+  font-size:16px;
+  font-weight: bold;
+
+}
+
+/* Skills */
+#skills {
+  padding: 40px;
+  background-color:darkgray;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.skill-list li {
+  background-color: rgb(118, 128, 34);
+  padding: 10px;
+  text-align: center;
+  font-size: bold;
+  border-radius: 10px;
+}
+
+/* Projects */
+#projects {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+.project img {
+  margin-bottom: 50px;
+
+
+}
+
+/* Contact */
+#contact {
+  padding: 40px;
+  background-color: darkgray;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
